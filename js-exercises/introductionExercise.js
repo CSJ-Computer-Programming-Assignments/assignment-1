@@ -25,31 +25,31 @@
 
 
 // Here I created my own string
-let myString = "Hello World"
+let myString = "Hello World";
 
 // Here I provide the length of my string
-const stringLength = myString.length
+const stringLength = myString.length;
 
 // Here I created 2 different numbers and the remainder
-let num1 = 200
-const num2 = 12
-const remainder = num1 / num2
+let num1 = 201;
+const num2 = 12;
+const remainder = num1 / num2;
 
 // Here I print to the console the string I created and its length
-console.log(`The length of ${myString} is ${stringLength}.`)
+console.log(`The length of ${myString} is ${stringLength}.`);
 
 
 // In this variable i store whether the number is even or not
-const isEven = num1.isEven
+const isEven = num1 % 2;
 
 // This line prints to the console the answer whether the num1 is even or not
-console.log(`${num1} is ${isEven ? "even" : "is not even"}`)
+console.log(`${num1} is ${isEven === 0 ? "even" : "is not even"}`);
 
 // Here we are storing a random number
-const randomNum = Math.random() * 100
+const randomNum = Math.random() * 100;
 
 // In this line of code we add 7 to the existing num1 variable
-num1 += 7
+num1 += 7;
 
 // Here we are reseting myString variable to null
-myString = null
+myString = null;
