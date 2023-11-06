@@ -16,3 +16,5 @@ const clesiusToFahreheit = (celsius) => {
 for(let i = 0; i < 3; i++) {
     console.log(clesiusToFahreheit(Math.random() * 100));
 }
+
+module.exports = clesiusToFahreheit;

@@ -24,8 +24,12 @@ Sample Output:
 
 */
 
+console.log("Eligibility Checker")
+
 // Definining agefea
 const age = 18;
 
+console.log(`Age: ${age}`)
+
 // Printing the message with ternary operator
-console.log(age >= 18 ? "You are eligible to vote." : "You are not eligible to vote.")
+console.log("Message: " + age >= 18 ? "You are eligible to vote." : "You are not eligible to vote.")
